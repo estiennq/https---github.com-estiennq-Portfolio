@@ -1,6 +1,7 @@
 
 h1,h2,h3,h4,h5,h6,p,li,a{
-    color: black;
+    color: rgba(0, 0, 0,100%);
+    opacity: 100%;
 }
 
  ul{
@@ -16,6 +17,7 @@ body{
     background-size: 100%;
     position: relative;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .lien-index{
@@ -99,7 +101,7 @@ header ul,nav ul,footer ul{
     border-bottom: 0.1em solid white;
     width: 100%;
     z-index: 1; 
-    opacity: 80%;
+    opacity: 100%;
 }
 
 .navbar{
@@ -183,7 +185,7 @@ div.text-box-competences{
 }
 
 div.text-box-competences ul{
-    background-color: rgba(223, 223, 223, 0.5);
+    background-color: rgba(180, 0, 0, 0.5);
     border-radius: 5%;
     padding: 5%;
 
@@ -215,7 +217,7 @@ a{
     position: absolute;
     bottom: 0;
     color: black;
-    background-color: rgba(0, 0, 0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     padding : 0.5em;
     color: white;
     width:  100%;
