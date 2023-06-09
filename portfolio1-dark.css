@@ -8,6 +8,7 @@ body{
     background-image: url(img/gradient-dark.jpg);
     background-size: 100%;
     position: relative;
+    background-repeat: no-repeat;
 }
 
 .lien-index{
