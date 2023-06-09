@@ -1,0 +1,168 @@
+main {
+  background-color: rgb(155, 169, 170);
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap-reverse;
+  
+  
+  
+}
+
+
+body {
+  
+  font-family: Arial;
+  color : black;
+  align-items: flex-end;
+}
+
+
+h1,h2{
+  text-decoration: underline solid white 3px;
+  text-decoration-color: white;
+  padding: 3px;
+  width: 100%;
+}
+aside{
+  margin: 30px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 20px;
+  
+}
+
+aside ul{
+  text-decoration: underline dotted white 2px;
+  border-style:dashed;
+  border-width: 2px;
+  border-color: black;
+  margin: 5px;
+}
+
+article{
+  flex-wrap: wrap;
+  background-size: cover;
+  display:flex;
+  flex-direction: column;
+  flex-grow: 1; 
+}
+
+
+div{
+  margin: 30px;
+  display: flex;
+  background-color: white;
+  border-radius: 25px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+main a{
+  position: relative;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  flex-basis: 400px;
+  height: 200px;
+  text-align: center;
+}
+.projets p{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(226, 226, 226);
+  margin: 0;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 5px;
+  color: black;
+
+}
+
+ article img{
+  
+  border-radius: 25px;
+  height: 200px;
+  width: 400px;
+  
+}
+
+
+
+
+header,footer{
+  background-color: darkgray;
+  padding: 5px;
+  border: 1px solid black;
+
+}
+
+nav{
+  border-radius: 25px;
+  
+}
+
+
+
+
+header a,footer a{
+  display:block;
+  padding: 5px;
+  border-width: 1px;
+  border-style: solid;
+  color: white;
+  
+  
+}
+
+
+header ul,footer ul{
+  display : flex;
+  justify-content: space-around;
+  list-style-type:none; 
+  margin: 0px;
+  padding: 0px;
+  border-radius: 25px;
+  background-color: grey;
+}
+
+header:first-child li:hover,footer li:hover{
+  background-color: tomato;
+  border-radius:25px;
+
+}
+footer a{
+  color: rgb(0, 0, 0);
+}
+
+header a:hover{
+  color: black;
+}
+
+footer a:hover{
+  color: blue;
+}
+
+div img:hover{
+  filter: brightness(50%);
+}
+
+
+li{
+  flex-grow: 1;
+  text-align: center;
+  
+}
+
+
+
+li:first-child a{
+  border-top-left-radius:25px ;
+  border-bottom-left-radius:25px ;
+  
+}
+
+li:last-child a{
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px ;
+}
