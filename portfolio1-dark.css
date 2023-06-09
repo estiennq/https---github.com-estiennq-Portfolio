@@ -1,4 +1,6 @@
 
+
+
 body{
     font-size: large;
     margin: auto;
@@ -6,6 +8,10 @@ body{
     background-image: url(img/gradient-dark.jpg);
     background-size: 100%;
     position: relative;
+}
+
+.lien-index{
+    text-decoration: underline;
 }
 
 
@@ -113,11 +119,20 @@ h1{
     padding: 5%
 }
 
-.presentation{
+.presentation,.presentation-competences{
     width: 50%;
     display: flex;
     position: relative;
+    
 }
+
+.presentation-competences{
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 
 .presentation a .projet{
     width: 100%;
@@ -138,7 +153,7 @@ main.qui-suis-je{
 }
 
 div.text-box{
-    background-color: rgba(71, 71, 71, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     justify-content: center;
     width: 70%;
     color: white;
@@ -146,10 +161,37 @@ div.text-box{
     margin-bottom: 1%;
     margin-top: 1%;
     text-align: center;
-    display: flex;
+    
 }
 
+div.text-box-competences{
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    width: 80%;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
 
+div.text-box-competences ul{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+    padding: 5%;
+
+
+
+}
+
+div.text-box-competences ul li{
+    padding: 5%;
+}
 
 
 .presentation-me .me{
@@ -214,7 +256,7 @@ header a:hover{
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 
 }
 
@@ -234,5 +276,9 @@ span a img{
 
 nav ul li a{
     color: white;
+}
+
+h2{
+    margin: 5%;
 }
 
