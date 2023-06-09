@@ -85,6 +85,7 @@ header ul,nav ul,footer ul{
     width: 100%;
     z-index: 1; 
     opacity: 80%;
+    height: 15%;
 }
 
 .navbar{
