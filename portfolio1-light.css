@@ -4,12 +4,20 @@ h1,h2,h3,h4,h5,h6,p,li,a{
     opacity: 100%;
 }
 
+h1,h2,h3,h4,h5,h6,p{
+    margin : 20px
+}
+
+li{
+    font-weight: bold;
+}
+
  ul{
     padding-left: 0;
 }
 
 .sprites-sheets {
-    
+
 }
 
 .projet-football {
@@ -17,15 +25,26 @@ h1,h2,h3,h4,h5,h6,p,li,a{
     width: 50%;
   }
 
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
 body{
     font-size: large;
     margin: auto;
-    font-family: /* 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif*/ Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-    background-image: url(img/gradient-light.jpg);
+    font-family: /* 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif*/ Arial,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    background-color: #F7F7F8;
     background-size: 100%;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+iframe {
+    border-radius: 25px;
 }
 
 .lien-index{
@@ -133,12 +152,12 @@ main{
 }
 
 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 5%
+    font-family: Arial,Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px
 }
 
 .presentation,.presentation-competences{
-    width: 50%;
+    width: 50%; 
     display: flex;
     position: relative;    
 }
@@ -173,14 +192,21 @@ main.qui-suis-je{
     width: 100%;
 }
 
+div.text-box-competences{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 div.text-box,div.text-box-competences{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color : white;
     justify-content: center;
     width: 80%;
-    border-radius: 10px;
+    border-radius: 25px;
     margin-bottom: 1%;
     margin-top: 1%;
     text-align: center;
+    box-shadow: 0 4px 2px -4px
     
 }
 
@@ -193,7 +219,7 @@ div.text-box-competences{
 }
 
 div.text-box-competences ul{
-    background-color: rgba(224, 23, 23, 0.5);
+    background-color: rgba(245, 245, 245, 0.879);
     border-radius: 5%;
     padding: 5%;
 
@@ -289,4 +315,8 @@ span a img{
 h2{
     margin: 5%;
 }
+
+  
+
+  
 
